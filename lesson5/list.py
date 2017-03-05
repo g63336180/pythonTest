@@ -18,9 +18,9 @@ months = [
 endings = ['st', 'nd', 'rd'] + 17 * ['th'] \
         + ['st', 'nd', 'rd'] + 7 * ['th'] \
         + ['st']
-
+print(endings)
 year = input('year: ')
-month = input('month(1-12: ')
+month = input('month(1-12): ')
 day   = input('day(1-31): ')
 
 month_number = int(month)
